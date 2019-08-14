@@ -1,7 +1,7 @@
 {
-    "name": "@xboxreplay/error",
+    "name": "@xboxreplay/errors",
     "description": "Common package used by `@xboxreplay` modules.",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "keywords": [
         "xboxreplay"
     ],
