@@ -10,7 +10,7 @@ declare namespace XboxReplayError {
     };
 
     export class XboxReplayError extends Error implements IXboxReplayError {
-        static readonly details: ErrorDetails;
+        static readonly details: Required<ErrorDetails>;
         constructor(message: string, details?: ErrorDetails);
         __XboxReplay__: true;
         details: ErrorDetails;
